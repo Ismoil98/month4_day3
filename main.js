@@ -385,34 +385,257 @@
 
 
 // case6
-let baho = +prompt("Bahoni kiriting:")
-switch (baho) {
-    case 1:
-        console.log("Yomon");
-        break;
-    case 2:
-        console.log("Qoniqarsiz");
-        break;
-    case 3:
-        console.log("Qoniqarli");
-        break;
-    case 4:
-        console.log("Yaxshi");
-        break;
-    case 5:
-        console.log("A'lo");
-        break;
-    default:
-        console.log("Bunday baho yo'q");
-  }
+// let Day = +prompt("Sanani kiriting:")
+// let Month = +prompt("Oyni kiriting:")
+// switch (Month) {
+//     case 1:
+//         console.log(Day + " - yanvar");
+//         break;
+//     case 2:
+//         console.log(Day + " - fevral");
+//         break;
+//     case 3:
+//         console.log(Day + " - mart");
+//         break;
+//     case 4:
+//         console.log(Day + " - aprel");
+//         break;
+//     case 5:
+//         console.log(Day + " - may");
+//         break;
+//     case 6:
+//         console.log(Day + " - iyun");
+//         break;
+//     case 7:
+//         console.log(Day + " - iyul");
+//         break;
+//     case 8:
+//         console.log(Day + " - avgust");
+//         break;
+//     case 9:
+//         console.log(Day + " - sentabr");
+//         break;
+//     case 10:
+//         console.log(Day + " - oktabr");
+//         break;
+//     case 11:
+//         console.log(Day + " - noyabr");
+//         break;
+//     case 12:
+//         console.log(Day + " - dekabr");
+//         break;
+//     default:
+//         console.log("Bunday oy yoki kun yo'q");
+//   }
 
 
+// case7
+// let Day = +prompt("Sanani kiriting:")
+// let Month = +prompt("Oyni kiriting:")
+// switch (Month) {
+//     case 1:
+//         console.log(Day + " - yanvar");
+//         break;
+//     case 2:
+//         console.log(Day + " - fevral");
+//         break;
+//     case 3:
+//         console.log(Day + " - mart");
+//         break;
+//     case 4:
+//         console.log(Day + " - aprel");
+//         break;
+//     case 5:
+//         console.log(Day + " - may");
+//         break;
+//     case 6:
+//         console.log(Day + " - iyun");
+//         break;
+//     case 7:
+//         console.log(Day + " - iyul");
+//         break;
+//     case 8:
+//         console.log(Day + " - avgust");
+//         break;
+//     case 9:
+//         console.log(Day + " - sentabr");
+//         break;
+//     case 10:
+//         console.log(Day + " - oktabr");
+//         break;
+//     case 11:
+//         console.log(Day + " - noyabr");
+//         break;
+//     case 12:
+//         console.log(Day + " - dekabr");
+//         break;
+//     default:
+//         console.log("Bunday oy yoki kun yo'q");
+//   }
 
-// case1
-// case1
-// case1
-// case1
-// case1
-// case1
+
+// case8
+// alert("Robotning harakatlanish yo'nalishlari: 1-shimol, 2-janub, 3-sharq, 4-g'arb")
+// let yonalish = +prompt("Yonalishni kiriting:")
+// alert("Robotning harakatlanish raqamli buyuqlari: 0-harakatni davom ettir, 1-chapga buril, 2-o'ngga buril")
+// let buyruq = +prompt("Buyruqni kiriting:")
+
+// switch (yonalish) {
+//     case 1:
+//         console.log("shimolga ");
+//         break;
+//     case 2: 
+//         console.log("janubga ");
+//         break;
+//     case 3: 
+//         console.log("sharqqa ");
+//         break;
+//     case 4: 
+//         console.log("g'arbga ");
+//         break;
+// }
+// switch (buyruq) {
+//     case 0: 
+//         console.log("harakatni davom ettir");
+//         break;
+//     case 1: 
+//         console.log("chapga buril");
+//         break;
+//     case 2: 
+//         console.log("o'ngga buril");
+//         break;
+//     default:
+//         console.log("Xatolik");
+// }
+
+
+// case9
+// alert("Karta turi: 1 dan 10 gacha va 11-valet, 12-dama, 13-qirol 13-tuz")
+// let Turi = +prompt("Turini kiriting:")
+// alert("Karta nomi: 1-g'isht, 2-olma, 3-chillak, 4-qarg'a")
+// let Nomi = +prompt("Nomini kiriting kiriting:")
+
+// switch (Turi) {
+//     case 1:
+//         console.log("bir ");
+//         break;
+//     case 2: 
+//         console.log("ikki ");
+//         break;
+//     case 3: 
+//         console.log("uch ");
+//         break;
+//     case 4: 
+//         console.log("to'rt ");
+//         break;
+//     case 5: 
+//         console.log("besh");
+//         break;
+//     case 6: 
+//         console.log("olti");
+//         break;
+//     case 7: 
+//         console.log("yetti");
+//         break;
+//     case 8: 
+//         console.log("sakkiz");
+//         break;
+//     case 9: 
+//         console.log("to'qqiz");
+//         break;
+//     case 10: 
+//         console.log("o'n");
+//         break;
+//     case 11: 
+//         console.log("valet ");
+//         break;
+//     case 12: 
+//         console.log("dama ");
+//         break;
+//     case 13: 
+//         console.log("qirol ");
+//         break;
+//     case 14: 
+//         console.log("tuz ");
+//         break;
+//     default:
+//         console.log("Xatolik");
+//     }
+// switch (Nomi) {
+//     case 1: 
+//         console.log("g'isht");
+//         break;
+//     case 2: 
+//         console.log("olma");
+//         break;
+//     case 3: 
+//         console.log("chillak");
+//         break;
+//     case 4: 
+//         console.log("qarg'a");
+//         break;
+//     default:
+//         console.log("Xatolik");
+// }
+
+
+// case10
+// let masala = +prompt("masalalar sonini kiriting")
+// let onlik = Math.floor(masala/10)
+// let birlik = masala % 10;
+
+// switch (onlik) {
+//     case 1:
+//         console.log("O'n ");
+//         break;
+//     case 2:
+//         console.log("Yigirma ");
+//         break;
+//     case 3:
+//         console.log("O'ttiz ");
+//         break;
+//     case 4:
+//         console.log("Qiriq ");
+//         break;
+//     default:
+//         console.log("Xatolik");
+// }
+// switch (birlik) {
+//     case 1:
+//         console.log("bitta masala ");
+//         break;
+//     case 2:
+//         console.log("ikta masala ");
+//         break;
+//     case 3:
+//         console.log("uchta masala ");
+//         break;
+//     case 4:
+//         console.log("to'rtta masala ");
+//         break;
+//     case 5:
+//         console.log("beshta masala ");
+//         break;
+//     case 6:
+//         console.log("oltita masala ");
+//         break;
+//     case 7:
+//         console.log("yettita masala ");
+//         break;
+//     case 8:
+//         console.log("sakkizta masala ");
+//         break;
+//     case 9:
+//         console.log("to'qqizta masala");
+//         break;
+//     default:
+//         console.log("Xatolik");
+// }
+
+
+// case11
+
+
+// case12
 
 
