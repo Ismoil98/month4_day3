@@ -634,8 +634,109 @@
 
 
 // case11
+let son = +prompt("100-999 oralig'ida son kiriting kiriting")
+let yuzlik = Math.floor(son/100)
+let onlik = Math.floor(son/10)%10
+let birlik = son % 10;
+
+console.log(son);
+
+switch (yuzlik) {
+    case 1:
+        console.log("Bir yuz");
+        break;
+    case 2:
+        console.log("ikki yuz ");
+        break;
+    case 3:
+        console.log("uch yuz ");
+        break;
+    case 4:
+        console.log("to'rt yuz ");
+        break;
+    case 5:
+        console.log("besh yuz ");
+        break;
+    case 6:
+        console.log("olti yuz ");
+        break;
+    case 7:
+        console.log("yetti yuz ");
+        break;
+    case 8:
+        console.log("sakkiz yuz ");
+        break;
+    case 9:
+        console.log("to'qqiz yuz");
+        break;
+    default:
+        console.log("Xatolik");
+}
+switch (onlik) {
+    case 1:
+        console.log("o'n ");
+        break;
+    case 2:
+        console.log("yigirma ");
+        break;
+    case 3:
+        console.log("o'ttiz ");
+        break;
+    case 4:
+        console.log("qirq ");
+        break;
+    case 5:
+        console.log("ellik ");
+        break;
+    case 6:
+        console.log("oltmush ");
+        break;
+    case 7:
+        console.log("yetmush ");
+        break;
+    case 8:
+        console.log("sakson ");
+        break;
+    case 9:
+        console.log("to'qson");
+        break;
+    default:
+        console.log("Xatolik");
+}
+switch (birlik) {
+    case 1:
+        console.log("bir");
+        break;
+    case 2:
+        console.log("ikki");
+        break;
+    case 3:
+        console.log("uch");
+        break;
+    case 4:
+        console.log("to'rt");
+        break;
+    case 5:
+        console.log("besh");
+        break;
+    case 6:
+        console.log("olti");
+        break;
+    case 7:
+        console.log("yetti");
+        break;
+    case 8:
+        console.log("sakkiz");
+        break;
+    case 9:
+        console.log("to'qqiz");
+        break;
+    default:
+        console.log("Xatolik");
+}
 
 
 // case12
+
 
 
