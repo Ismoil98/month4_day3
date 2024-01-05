@@ -335,30 +335,79 @@
 
 
 // case4
-let uzunlikBirligi = +prompt("Uzunlik birligini kiriting") 
-let Qiymat = +prompt("Qiymatini kiriting")
-switch (uzunlikBirligi) {
+// alert("Uzunlik birliklari: 1) Detsimetr, 2) Kilometr, 3) Metr 4) Millimetr, 5) Santimetr")
+// let uzunlikBirligi = +prompt("Uzunlik birligini kiriting") 
+// let Qiymat = +prompt("Qiymatini kiriting")
+// switch (uzunlikBirligi) {
+//     case 1:
+//         console.log(Qiymat + " detsimetr bu " + Qiymat/10 + " metr");
+//         break;
+//     case 2:
+//         console.log(Qiymat + " kilometr bu " + Qiymat*1000 + " metr");
+//         break;
+//     case 3:
+//         console.log(Qiymat + " metr bu " + Qiymat + " metr");
+//         break;
+//     case 4:
+//         console.log(Qiymat + " millimetr bu " + Qiymat/1000 + " metr");
+//         break;
+//     case 5:
+//         console.log(Qiymat + " sm bu " + Qiymat/100 + " metr");
+//         break;
+//     default:
+//         console.log("Bunday uzunlik o'lchov birligi yo'q");
+//   }
+
+
+// case5
+// alert("Og'irlik birliklari: 1) Kilogramm, 2) Milligramm, 3) Gramm 4) Tonna, 5) Sentner")
+// let uzunlikBirligi = +prompt("Og'irlik birligini kiriting") 
+// let Qiymat = +prompt("Qiymatini kiriting")
+// switch (uzunlikBirligi) {
+//     case 1:
+//         console.log(Qiymat + " kilogramm bu " + Qiymat + " kilogramm");
+//         break;
+//     case 2:
+//         console.log(Qiymat + " milligramm bu " + Qiymat/10000 + " kilogramm");
+//         break;
+//     case 3:
+//         console.log(Qiymat + " gramm bu " + Qiymat/1000 + " kilogramm");
+//         break;
+//     case 4:
+//         console.log(Qiymat + " tonna bu " + Qiymat*1000 + " kilogramm");
+//         break;
+//     case 5:
+//         console.log(Qiymat + " sentner bu " + Qiymat*100 + " kilogramm");
+//         break;
+//     default:
+//         console.log("Bunday og'irlik o'lchov birligi yo'q");
+//   }
+
+
+// case6
+let baho = +prompt("Bahoni kiriting:")
+switch (baho) {
     case 1:
-        console.log("detsimetr");
+        console.log("Yomon");
         break;
     case 2:
-        console.log("Kilometr");
+        console.log("Qoniqarsiz");
         break;
     case 3:
-        console.log("metr");
+        console.log("Qoniqarli");
         break;
     case 4:
-        console.log("millimetr");
+        console.log("Yaxshi");
         break;
     case 5:
-        console.log("santimetr");
+        console.log("A'lo");
         break;
     default:
-        console.log("Bunday uzunlik o'lchov birligi yo'q");
+        console.log("Bunday baho yo'q");
   }
 
-// case1
-// case1
+
+
 // case1
 // case1
 // case1
